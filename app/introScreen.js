@@ -36,7 +36,7 @@ const introScreen = () => __awaiter(void 0, void 0, void 0, function* () {
     setTimeout(() => {
         // await anyKeyPrompt("press any key to continue");
     }, 2000);
-    anyKeyPrompt("press any key to continue");
+    yield anyKeyPrompt("press any key to continue");
     return;
 });
 exports.introScreen = introScreen;
